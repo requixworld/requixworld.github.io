@@ -1,0 +1,103 @@
+
+body{
+	margin: 0 auto;
+	width: 75%;
+	background-image: url(https://images4.alphacoders.com/600/600528.png);
+}
+
+#wrapperHeader{
+    position: relative;
+    background-image:url(src/png/cabeza.jpg);
+}
+
+#header{
+    background:url(src/png/cabeza.jpg) no-repeat;
+    
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: orange;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+aside .par_color{
+	
+   background: white;
+	margin-top: -1000px;
+	float: right;
+	width: 290px;
+	text-align: center;
+}
+
+
+section .par_color{
+	width: 70%;
+	padding: 1%;
+	background-color: orange;
+	float: left;
+}
+
+section p { 
+font-family: 'impact'; color: blue;
+font-size: 19px;
+float: left;
+margin-right: 29%;
+background-color: grey;
+}
+
+
+footer {
+	background: orange;
+	font-family: impact; color: blue;
+	clear: both;
+	padding: 3%;
+	width: 100%;
+	font-size: 50px;
+	text-align: center;
+	float: right;
+	
+}
+
+table, td, th {
+    border: 1px solid orange;
+	color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+	color: blue;
+}
